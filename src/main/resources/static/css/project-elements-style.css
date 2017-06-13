@@ -1,0 +1,558 @@
+body {
+    background: #2c3338;
+    color: #606468;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.center-block {
+    padding-left: calc(50% - 150px);
+    padding-top: 60px;
+    width: 310px;
+    display: inline-block;
+
+}
+
+.center-block > a {
+    display: block;
+    padding-left: 3px;
+}
+
+.center-block > h1.center-block__header-title {
+}
+
+.center-block__info-block {
+    width: 300px;
+}
+
+div.center-block__info-block {
+    background-color: #3b4148;
+    position: relative;
+    float: left;
+}
+
+.half-center-block {
+    width: 150px;
+    background-color: #3b4148;
+    float: left;
+}
+
+.half-center-block > h3 {
+    padding: 0 20px 0 20px;
+    background: #2A2A2A;/*#363b41*/
+    margin: 0;
+}
+
+.half-center-block > img {
+    margin: 10px 0 0 20px;
+    padding: 0 25px;
+
+}
+
+img:hover, input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.info-block__info-row {
+    width: 245px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.info-block__info-row:first-child {
+    padding-top: 10px;
+}
+
+.info-block__info-row-title {
+    float: left;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.info-block__info-row-cost {
+    float: right;
+    margin: 0;
+    padding-right: 5px;
+}
+
+.expenses-block__add-money {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -5px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    clear: both;
+    min-height: 55px;
+}
+
+legend {
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    height: 20px;
+
+}
+
+.center-block__legend-hover-block {
+    width: 300px;
+    height: 20px;
+    background-color: #2A2A2A;
+    margin-top: -20px;
+    float: left;
+
+}
+select.header-window-block__choose-period,
+div.logout-form, div.category-window, div.calculator-window, div.balance-window, div.header-window-block {
+    height: 30px;
+    background: #ea4c88;
+    float: left;
+    position: relative;
+}
+
+div.logout-form > p,
+div.category-window > p,
+div.calculator-window > p,
+div.center-block__choose-balance-year-wrapper > p,
+div.balance-window > p,
+div.center-block__choosing-period-wrapper > p,
+select.header-window-block__choose-period {
+    color: #eee;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    padding: 4px 0;
+    width: 228px;
+    float: left;
+}
+div.center-block__choosing-period-wrapper > p.as-period-value {
+    width: 112px !important;
+    float: left;
+    padding-left: 2px;
+}
+
+
+select.header-window-block__choose-period {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+div.logout-form div.logout-form__menu-wrapper input {
+    background: url(/img/show-menu-24.png) no-repeat;
+    margin: 0 !important;
+}
+
+div.logout-form div.logout-form__back-wrapper,
+div.logout-form div.logout-form__success-wrapper,
+div.category-window__back-wrapper,
+div.logout-form__menu-wrapper,
+div.calculator-window__back-wrapper,
+div.calculator-window__done-calc-wrapper,
+div.balance-window__back-wrapper,
+div.balance-window__back-wrapper,
+div.choose-balance-year__next-year-wrapper,
+div.header-window-block__back-wrapper,
+div.header-window-block__info-graphic-wrapper,
+div.choosing-period__previous-value-wrapper,
+div.choosing-period__next-value-wrapper,
+div.choose-balance-year__prev-year-wrapper,
+div.header-window-block__info-graphic-wrapper{
+    padding: 3px;
+    width: 30px;
+    float: left;
+}
+div.choosing-period__next-value-wrapper,
+div.choose-balance-year__next-year-wrapper{
+    float: right;
+}
+
+.info-row__choose-category-btn {
+    background: url(/img/plus.png) no-repeat;
+    float: left;
+    margin: 15px 0 0 5px !important;
+}
+
+div.logout-form div.logout-form__back-wrapper input,
+div.category-window__back-wrapper input[type="button"],
+div.calculator-window__back-wrapper input[type="button"],
+div.choose-balance-year__prev-year-wrapper input[type="button"],
+div.balance-window__back-wrapper input[type="button"],
+div.header-window-block__back-wrapper input[type="button"],
+div.choosing-period__previous-value-wrapper input[type="button"] {
+    background: url(/img/back.png) no-repeat;
+    margin: 0;
+}
+div.header-window-block__info-graphic-wrapper  input[type="button"] {
+    background: url(/img/stats.png) no-repeat;
+    margin: 0;
+}
+
+div.choose-balance-year__next-year-wrapper input[type="button"],
+div.choosing-period__next-value-wrapper input[type="button"] {
+    background: url(/img/next.png) no-repeat;
+    margin: 0;
+}
+
+div.logout-form div.logout-form__success-wrapper input,
+div.calculator-window__done-calc-wrapper input[type="button"] {
+    background: url(/img/check.png) no-repeat;
+    margin: 0;
+}
+
+.info-row__date-time-row,
+.info-row__summary-cost-row,
+.info-row__comment-row,
+.info-row__category-row,
+.find-or-add-new-category__text-field,
+.calc-result {
+    width: 290px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    background-color: #3b4148;
+    text-align: center;
+    color: #eee;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    margin: 0 5px 5px;
+    padding: 5px 0 0;
+
+}
+
+.center-block__category-block .info-block__info-row, .center-block__summary-block .info-block__info-row {
+    width: 100%;
+}
+
+.info-row__category-row, .info-row__summary-cost-row {
+    width: 250px;
+    padding-top: 5px;
+}
+
+.info-row__comment-row, .info-row__category-row {
+    text-align: left;
+    float: left;
+
+}
+
+select {
+    margin: 5px 0 0 0;
+    width: 280px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    background-color: #3b4148;
+    text-align: left;
+    color: #eee;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.info-row__calc-img {
+    padding-top: 10px;
+    float: left;
+}
+
+.calc-result {
+    float: left;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.info-row__summary-cost-row {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.categories-block__category-item > p {
+    width: 270px;
+    float: left;
+    margin: 5px 4px 0 5px;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+
+.categories-block__category-item > img {
+    float: left;
+    margin-top: 3px;
+}
+
+.find-or-add-new-category__text-field {
+    float: left;
+    width: 255px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.categories-block__category-item:hover {
+    cursor: pointer;
+    color: #eee;
+}
+
+.left-menu-block {
+    position: absolute;
+    top: 60px;
+    background-color: #363b41;
+    height: 339px;
+    padding-left: 0;
+    left: calc(50% - 150px);
+    padding-top: 0;
+    z-index: 9999;
+    width: 300px;
+}
+
+.left-menu__menu-row {
+    margin: 10px;
+    display: flex;
+}
+
+.menu-row__icon {
+    float: left;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    border: none;
+    margin: 3px 0;
+}
+
+.left-menu__menu-row > p {
+    float: left;
+    margin: 0px 0 5px 10px;
+    color: #eee;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info-row__action-button {
+    margin: 5px 0 0 20px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-row__calc-img {
+    background: url(/img/calc-24.png) no-repeat;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+
+}
+
+.info-row__add-expenses, .info-row__add-incomes {
+    background: url(/img/plus.png) no-repeat;
+    float: none;
+}
+
+.info-row__show-balance {
+    background: url(/img/more.png) no-repeat;
+}
+
+.menu-row__backup-icon {
+    background: url(/img/backup-24.png) no-repeat;
+}
+
+.menu-row__info-icon {
+    background: url(/img/info-24.png) no-repeat;
+}
+
+.menu-row__logout-icon {
+    background: url(/img/logout-24.png) no-repeat;
+}
+
+.menu-row__logout-icon, .menu-row__info-icon, .menu-row__backup-icon {
+    margin: 0 !important;
+}
+
+.categories-block__category-item {
+    height: 26px;
+    display: inline-flex;
+}
+
+.calc-row-4 {
+    width: 300px;
+}
+
+.calc-row {
+    float: left;
+    margin: 5px 0;
+    padding-left: 3px;
+}
+
+.calc-row > input[type="button"] {
+    border: none;
+    width: 60px;
+    height: 50px;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.calc-row-vert-2 > input[type="button"] {
+    height: 110px;
+    margin-left: 6px;
+}
+
+.calc-button-2 {
+    width: 134px !important;
+}
+
+.calc-last-row {
+    position: absolute;
+    top: 282px;
+}
+
+div.center-block__total-balance-cost-wrapper p,
+div.balance-by-month-row p {
+    margin: 0;
+    float: left;
+    width: 130px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+div.center-block__total-balance-cost-wrapper {
+    border-bottom: 2px solid gray;
+}
+
+div.balance-by-month-row {
+    border-bottom: 1px solid gray !important;
+}
+
+div.center-block__choose-balance-year-wrapper,
+div.center-block__choosing-period-wrapper {
+    background: #2A2A2A;
+}
+
+p.total-balance-cost__text-row {
+    padding-left: 10px;
+}
+
+p.total-balance-cost__value-row,
+p.balance-by-month-row__cost {
+    text-align: right;
+}
+
+div.balance-by-month-row:hover {
+    cursor: pointer;
+}
+
+/**************************************/
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dtp .dtp-buttons {
+    padding: 0 1em 1em 1em;
+    text-align: right;
+}
+
+.btn-group-sm .btn, .btn-group-sm .input-group-btn .btn, .btn.btn-sm, .input-group-btn .btn.btn-sm {
+    padding: 5px 20px;
+    font-size: 12px;
+}
+
+.btn, .input-group-btn .btn {
+    border: none;
+    border-radius: 2px;
+    position: relative;
+    padding: 8px 30px;
+    margin: 10px 1px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    will-change: box-shadow, transform;
+    -webkit-transition: -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+    -o-transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+    transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    background: 0 0;
+    color: #eee;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn:focus:not(.btn-raised):not(.btn-link), .btn:hover:not(.btn-raised):not(.btn-link), .input-group-btn .btn:focus:not(.btn-raised):not(.btn-link), .input-group-btn .btn:hover:not(.btn-raised):not(.btn-link) {
+    background-color: rgba(153, 153, 153, .2);
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+.dtp table.dtp-picker-days tr > th {
+    color: #757575;
+    text-align: center;
+    font-weight: 700;
+    padding: 0.4em 0.3em;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    /*border-top: 1px solid #ddd;*/
+}
+
+
+
+
+
+
+
+
